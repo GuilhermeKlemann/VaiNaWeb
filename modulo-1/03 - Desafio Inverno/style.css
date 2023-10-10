@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 1216px;
+  height: 1255px; */
+  font-family: 'Inter', sans-serif;
+  cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAA94z/AP///wAAhaMAAMTwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMAAAAzMzAAAAAAAAAAA0RDIiIiNEQwAAAAAAAAAAAzMiIiIiMzAAAAAAAAAAAAAiIiIiIiIAAAAAAAAAAAAAIiIiIiIiAAAAAAAAAAAAACIiIiIiIgAAAAAAAAAAAAAiIiIiIiIAAAAAAAAAAAAAAiIiIiIgAAAAAAAAAAAAEiIiIiIiIiEAAAAAAAAAERIiIiIiIiIhEQAAAAAAAREiIiIjMiIiIhEQAAAAAAIgIgIiNEMiICICIAAAAAAiICICIiMyIiAiAiIAAAAAIiIAIiIiIiIiACIiAAAAACIiIiIiIiIiIiIiIgAAAAACIiIiIiIiIiIiIiAAAAAAAiIiIiIiIiIiIiIgAAAAAAAiIiIiIAIiIiIiAAAAAAAAAiIiIgAAIiIiIAAAAAAAAAAiIiAAAAIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIiIiIgAAAAAAAAAAAAAAAiAAIAIgAAAAAAAAAAAAAAIAAAAiIAAAAAAAAAAAAAACAgAAIiAAAAAAAAAAAAAAAiAAIAIgAAAAAAAAAAAAAAAiIiIiAAAAAAAAAAAAAAAAAAAAAAD4AAf/+AAH//wAD//gAAH/8AAD//gAB//8AA//+AAH/+AAAf/AAAD/gAAAf4AAAH8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD+AAAB/gAAAf8AAAP/gAAH/8AADx/wAD+P/ADwD/8H4Af+Y8AD//HAA///wAP//8AD///gB///8Aw=='), auto;
+}
+
+header {
+  height: 12.27vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4B93BF;
+  color: #E4EEF1;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+img.flocoDeNeve {
+  height: 9.36vh;
+  display: flex;
+  align-items: center;
+}
+
+section.menuInicial {
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul {
+  width: 34.5vw;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+a:link,
+:visited {
+  text-decoration: none;
+}
+
+li:hover {
+  transform: scale(115%);
+  text-decoration: none;
+}
+
+a.menuInicial {
+  color: #E4EEF1;
+}
+
+a.estacao {
+  color: #0F468C;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+section.estacao {
+  height: 39.22vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #E4EEF1;
+  color: #0F468C;
+  font-size: 20px;
+  padding-bottom: 3vh;
+}
+
+
+p.inverno {
+  width: 30.57vw;
+  height: 27.57vh;
+  text-align: left;
+}
+
+img.inverno {
+  width: 21.66vw;
+  height: 28.61vh;
+}
+
+section.duracao {
+  height: 27.26vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4B93BF;
+  color: #E4EEF1;
+  font-size: 32px;
+}
+
+img.gramado {
+  width: 17.86vw;
+  height: 20.29vh;
+}
+
+p.duracao {
+  width: 30.46vw;
+  height: 8.11vh;
+  margin-bottom: 3vh;
+}
+
+section.galeria {
+  height: 39.22vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #E4EEF1;
+}
+
+img.galeria {
+  width: 14.58vw;
+  height: 19.25vh;
+  padding: 0 0.5vw 0 0.5vw;
+}
+
+footer {
+  height: 12.27vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4B93BF;
+  color: #E4EEF1;
+  padding: 0 6vw 0 4vw;
+}
+
+ul.midiasSociais {
+  width: 8vw;
+}
+
+p.id {
+  width: 27.6;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 7vw;
+}

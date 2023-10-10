@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  width: 1024px;
+  height: 2730px;
+} */
+
+header {
+  height: 7.16vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252525;
+  color: #FFFFFF;
+  padding: 0 2.8vw;
+  font-family: 'Roboto Serif', serif;
+}
+
+header section {
+  width: 8.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+img.logo {
+  height: 3.6vh;
+}
+
+header nav img {
+  height: 2.98vh;
+}
+
+header nav {
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+h1 {
+  font-size: 51px;
+  font-weight: 700;
+  font-family: 'Roboto Serif', serif;
+}
+
+h2 {
+  font-size: 49px;
+  font-weight: 700;
+  font-family: 'Roboto Serif', serif;
+}
+
+h3 {
+  font-family: 'Roboto Serif', serif;
+  font-size: 24px;
+  padding-bottom: 2.8vh;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+button {
+  width: 12.92vw;
+  height: 8.36vh;
+  border: none;
+  border-radius: 44px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+section.containerBoasVindas {
+  height: 72.58vh;
+  background-image: url(./assets/boasVindasDesktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: 'Roboto Serif', serif;
+}
+
+section.containerBoasVindas h1 {
+  width: 28vw;
+  height: 12.17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10.8vh 0 3.2vh 0;
+}
+
+section.containerBoasVindas img {
+  width: 6.30vw;
+  height: 12.48vh;
+}
+
+section.containerBanhoETosa {
+  height: 79.75vh;
+  background-image: url(./assets/banhoETosa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3A342F;
+}
+
+section.containerBanhoETosa h2 {
+  width: 22.92vw;
+  height: 5.88vh;
+  margin: 4vh 0 2vh 2.8vw;
+}
+
+section.containerBanhoETosa p {
+  width: 19.82vw;
+  height: 20.94vh;
+  margin: 0 0 5vh 2.8vw;
+}
+
+section.containerBanhoETosa button {
+  background-color: #3A342F;
+  color: #F4F2F3;
+  margin: 0 0 2vh 2.8vw;
+}
+
+section.containerMordomiaSaudavel {
+  height: 79.75vh;
+  background-image: url(./assets/mordomiaSaudavel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+section.containerMordomiaSaudavel h2 {
+  display: flex;
+  width: 16vw;
+  height: 12vh;
+  line-height: 1.2;
+  margin: 0 8vw 2vh 0;
+}
+
+section.containerMordomiaSaudavel p {
+  width: 21.4vw;
+  height: 24vh;
+  margin: 0 2.6vw 2vh 0;
+}
+
+section.containerMordomiaSaudavel button {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0 11.08vw 2vh 0;
+}
+
+section.containerApoio {
+  height: 11.63vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: #FD6A9A;
+}
+
+section.containerApoio p {
+  font-family: 'Roboto Serif', serif;
+  font-style: italic;
+}
+
+img.havaianasLogo {
+  height: 4vh;
+}
+
+img.americanasLogo {
+  height: 4vh;
+}
+
+section.containerApoio figure {
+  width: 34vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4.6vw;
+  border: solid;
+}
+
+footer {
+  height: 32.6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #EB4A7B;
+  color: #FFFFFF;
+  padding-right: 18vw;
+}
+
+section.contatos {
+  display: none;
+}
+
+footer section {
+  margin-left: 2vw;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width:750px) {
+
+  /* body {
+    width: 750px;
+    height: 5540px;
+  } */
+
+  header {
+    height: 17.42vh;
+    padding: 0 6vw 0 4vw;
+  }
+
+  header section {
+    width: 44.66vw;
+  }
+
+  img.logo {
+    height: 9.8vh;
+  }
+
+  header img.whatsappLogo {
+    height: 9.8vh;
+  }
+
+  header a.instagramLogo, header a.youtubeLogo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 69px;
+  }
+  
+  h3 {
+    font-size: 33px;
+    padding-bottom: 1.26vh;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  button {
+    width: 33.06vw;
+  }
+
+  section.containerBoasVindas {
+    height: 122.56vh;
+    background-image: url(./assets/boasVindasMobile.png);
+  }
+
+  section.containerBoasVindas h1 {
+    width: 94vw;
+    height: 18vh;
+    margin: 10.8vh 0 7.34vh 0;
+  }
+
+  section.containerBoasVindas img {
+    width: 27.06vw;
+    height: 21.30vh;
+  }
+
+  section.containerBanhoETosa {
+    height: 139.98vh;
+    background-image: url(./assets/banhoETosaMobile.png);
+    justify-content: flex-start;
+    color: #3A342F;
+  }
+
+  section.containerBanhoETosa h2 {
+    width: 66vw;
+    height: 5.98vh;
+    margin: 18.8vh 0 1.46vh 6vw;
+  }
+
+  section.containerBanhoETosa p {
+    width: 66vw;
+    margin: 0 0 1.46vh 6vw;
+  }
+
+  section.containerBanhoETosa button {
+    margin: 0 0 0 6vw;
+  }
+
+  section.containerMordomiaSaudavel {
+    height: 139.98vh;
+    background-image: url(./assets/mordomiaSaudavelMobile.png);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  section.containerMordomiaSaudavel h2 {
+    width: 72vw;
+    height: 5.98vh;
+    margin: 14.90vh 0 1.46vh 6vw;
+  }
+
+  section.containerMordomiaSaudavel p {
+    width: 65.86vw;
+    height: 16.88vh;
+    margin: 0 0 6vh 6vw;
+  }
+
+  section.containerMordomiaSaudavel button {
+    margin: 0 0 0 6vw;
+  }
+
+  section.containerApoio {
+    height: 22.87vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  section.containerApoio p {
+    padding-top: 4vh;
+  }
+
+  img.havaianasLogo {
+    width: 27.46vw;
+  }
+
+  img.americanasLogo {
+    width: 26.94vw;
+  }
+
+  section.containerApoio figure {
+    width: 65.4vw;
+    margin: 0;
+    padding-bottom: 4vh;
+  }
+
+  footer {
+    height: 138.6vh;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 0vw;
+  }
+
+  section.contatos {
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  footer section {
+    margin-left: 0vw;
+  }
+
+  footer nav a img {
+    height: 4vh;
+  }
+
+  footer nav {
+    width: 38vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+  
+  footer section {
+    margin-left: 0vw;
+  }
+  
+  footer p {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+}
